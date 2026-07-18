@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+img{
+    width: 200px;
+    height: 200px;    
+}
+
+
+.access-grid{
+display: flex;
+flex-direction: row;
+gap: 170px;
+margin-top: 15px;
+align-items: stretch;
+justify-content: center;
+}
+
+.access-card-1{
+    background-color: rgb(198, 209, 219);
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.access-card-2{
+    background-color: rgb(198, 209, 219);
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.access-card-3{
+    background-color: rgb(198, 209, 219);
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.access-card-4{
+    background-color: rgb(198, 209, 219);
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.access-card{
+width: 10px;
+height: 10px;
+}
+
+.access-badge{
+    background-color: rgb(142, 13, 182);
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+}
